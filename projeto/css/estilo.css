@@ -1,0 +1,436 @@
+@charset "utf-8";
+
+.body{
+     background-image: url(imgs/library.png);
+}
+
+@media only screen and (max-width: 768px){
+	img#logo{display: none;}
+	img#poemese{
+		display: none;
+	}
+	hr{
+		width: 100%;
+	}
+} 
+
+#content{
+	/*margin-right: 5%;*/
+	margin-left: 5%;
+	position: absolute;
+	width: 90%;
+	height: 100%;
+}
+
+p#level{
+	padding-top:3px;
+	margin-left:75px;
+	color: white;
+	margin-bottom:-27px;
+}
+p#usuario{
+	margin-left:75px;
+	margin-bottom:-5px;
+	color: #E3F6CE;
+}
+
+span#deslogar{
+	margin-left: 5px;
+	margin-top:10px	;
+	font-size: 12pt;
+	display: inline;
+	position: fixed;
+	color: white;
+	border-width: 1px;
+	border-style: solid;
+}
+
+span#deslogar a{
+	padding: 13px;
+	padding-bottom: 15px;
+	background-color: #0489B1;
+	text-decoration: none;
+	color: white;
+	border-radius: 0px;
+	transition:0.2s;
+}
+
+span#deslogar a:hover{
+  	font-size: 12pt;
+  	transition: 0.2s;
+  	background-color: purple;
+}
+
+img#logo{
+	width: 220px;
+	float: left;
+	margin-left:10px;
+}
+
+ul#menu{
+	list-style: none;
+	margin-top: -10px;
+	margin-bottom: -9px;
+	word-wrap:break-word;
+	white-space: nowrap;
+	display: flex;
+	justify-content: center;
+}
+
+ul#menu li{
+	display: inline;
+	margin-right: 20px;
+	
+}
+
+ul#menu li a:hover{
+	color: #FF1493;
+	text-decoration: none;
+	transition: 0.5s;
+	background-color: #F5A9E1;
+	border-radius: 2px;
+	padding-top:7px;
+	padding-bottom:9px;
+}
+
+ul#menu li a{
+	color: #DC2260;
+	padding: 3px;
+}
+
+nav.adm{
+	display: flex;
+	justify-content: center;
+}
+
+ul#menuadm{
+  list-style: none;
+  margin-top: 0px;
+  margin-bottom: -10px;
+  word-wrap:break-word;
+  white-space: nowrap;
+}
+
+ul#menuadm li{
+  display: inline;
+  margin-right: -5px;
+  background-color: #0489B1;
+  padding: 4px;
+  padding-top:12px;
+  padding-bottom: 16px;
+  transition: 0.7s;
+}
+
+ul#menuadm li:hover{
+	transition: 0.7s;
+	background-color: purple;
+	text-decoration: none;
+}
+
+ul#menuadm li a:hover{
+	text-decoration: none;
+}
+
+ul#menuadm li a{
+  color: white;
+  padding:12px;
+}
+
+header#off{
+	background-color: white;
+	height: 100px;
+	margin-bottom: 7px;
+	box-shadow: 2px 1px 10px;
+	border-radius: 10px;
+}
+
+header.adm{
+	height: 45px;
+	background-color: #0489B1;
+
+}
+
+footer{
+	background-color: white;
+	box-shadow: 2px 0px 5px;
+	margin-top:4px;
+	border-radius: 10px;
+}
+
+footer p{
+	padding: 2px;
+	font-weight:500;
+	font-size: 12pt;
+	text-decoration: none;
+	font-style: arial, sans-serif;
+}
+
+section {
+	margin-top: 50px;
+	font-family: constantia;
+	box-shadow: 2px 0px 5px;
+	padding: 10px;
+	margin-top: -2px;
+	background-color: white;
+	border-radius: 10px;
+}
+
+section h3{
+	font-size: 16pt;
+	font-weight: bold;
+}
+
+section h1{
+	letter-spacing: 2px;
+	text-align: center;
+	font-size: 18pt;
+}
+
+img#poemese{
+	float: left;
+	margin-right: 10px;
+	padding: 10px;
+}
+
+aside{
+	font-family: constantia;
+	box-shadow: 2px 0px 5px;
+	padding: 25px;
+	margin-top: 5px;
+	background-color: white;
+	border-radius: 10px;
+}
+
+aside h3{
+	font-size: 16pt;
+	font-weight: bold;
+}
+
+footer pre{ 
+	font-family: times-new-roman;
+	font-size: 9pt;
+	margin-top: 5px;
+}
+
+
+div#corpomodal p{
+	white-space: pre-line;
+	hyphens: auto;
+
+}
+
+div#corpomodal img{
+	width: 350px;
+}
+
+ul#menusend{
+	list-style: none;
+	margin-top: -8px;
+	margin-bottom: -7px;
+	word-wrap:break-word;
+	white-space: nowrap;
+	margin-right: 150px;
+	font-size: 12pt;
+}
+
+ul#menusend li{
+	display: inline;
+	margin-right: 70px;
+	
+}
+
+ul#menusend li a:hover{
+	color: #FF1493;
+	text-decoration: none;
+	transition: 0.7s;
+	background-color: #F5A9E1;
+	border-radius: 7px;
+}
+
+ul#menusend li a{
+	color: #DC2260;
+	padding: 3px;
+}
+
+ul#menusoli{
+	list-style: none;
+	margin-top: -10px;
+	margin-bottom: -9px;
+	word-wrap:break-word;
+	white-space: nowrap;
+	margin-right: 120px;
+	font-size: 12pt;
+}
+
+ul#menusoli li{
+	display: inline;
+	margin-right: 70px;
+	
+}
+
+ul#menusoli li a:hover{
+	color: #FF1493;
+	text-decoration: none;
+	transition: 0.7s;
+	background-color: #F5A9E1;
+	border-radius: 7px;
+}
+
+ul#menusoli li a{
+	color: #DC2260;
+	padding: 3px;
+}
+
+section#send{
+	margin-top: 7px;
+	width:100%;
+	font-family: arial, sans-serif;
+}
+
+section#soli{
+	width: 920px;
+	margin-left:-3px;
+}
+
+nav#send{
+	margin-top:3px;
+	width:920px;
+}
+
+form input{
+	box-shadow: 2px 2px 10px 1px grey;
+	border-radius: 8px;
+}
+
+form#formartigo h3{
+	letter-spacing: 3px;
+	margin-top:10px;
+}
+
+form#formartigo input[type=text]{
+	
+	width:300px;
+	letter-spacing: 1px;
+}
+
+placeholder{
+	text-align: center;
+}
+
+form#formartigo input[type=text]:focus {
+  border: 2px solid pink;
+  transition: 0.5s;
+}
+
+form#formartigo input[type=email]{
+
+	width:300px;
+}
+
+form#formartigo input[type=email]:focus {
+  border: 2px solid pink;
+  transition: 0.5s;
+}
+
+form#formartigo input[type=password]{
+	margin-left: 0px;
+	width:300px;
+}
+.justify{
+	display:flex;
+	justify-content: center;
+}
+
+div#sample{
+	margin-bottom: -30px;
+}
+
+
+button#btn{
+	margin-left: 47%;
+	font-family: arial, sans-serif;
+}
+
+#mainselection select{
+   border: 0;
+   color: #1C1C1C;
+   background: transparent;
+   font-size: 15px;
+   font-weight: bold;
+   padding: 2px 10px;
+   width: 300px;
+   *width: 300px;
+   -webkit-appearance: none;
+}
+
+#mainselection {
+   width:300px;
+   -moz-border-radius: 9px 9px 9px 9px;
+   -webkit-border-radius: 9px 9px 9px 9px;
+   border-radius: 9px 9px 9px 9px;
+   box-shadow: 1px 1px 11px #330033;
+   background: #04B4AE url("http://i62.tinypic.com/15xvbd5.png") no-repeat scroll 270px center;
+}
+
+padding-left: 15px;
+}
+
+button a{
+	color: white;
+}
+
+button a:hover{
+	text-decoration: none;
+	color: white;
+}
+
+#content-solic{
+	padding:10px;
+	color:white;
+	background-color: purple;
+	border-radius: 10px;
+}
+
+#erro{
+	z-index: 1;
+	margin-bottom: 0px;
+
+}
+
+.espaco{
+	height:1px;
+	margin-bottom: -35px;
+}
+
+footer#adm{
+	color: white;
+	background-color: #0489B1;
+	border-radius: 0px;
+   	position:fixed;
+   	bottom:0;
+    width:100%;
+    height: 25px;
+}
+
+ul#menufooter{
+	list-style: none;
+	margin-bottom:0px;
+	display: flex;
+	justify-content: center;
+}
+ul#menufooter a{
+	color: white;
+	text-decoration: none;
+	padding:15px;
+}
+ul#menufooter li{
+	list-style: none;
+	display: block;
+	transition: 0.5s;
+	padding:3px;
+	display: inline;
+}
+ul#menufooter li:hover{
+	background-color: purple;
+	transition: 0.5s;
+}
